@@ -5,10 +5,10 @@ import logo from '../assets/logo.png'
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false)
-  const [activeLink, setActiveLink] = useState(navItems[0].link) // Track active link
+  const [activeLink, setActiveLink] = useState(navItems[0].link) 
 
   const handleLinkClick = (link) => {
-    setActiveLink(link) // Update active link state when clicked
+    setActiveLink(link) 
     setMenu(false) // Optionally close menu on click (for mobile)
   }
 

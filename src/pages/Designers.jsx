@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import { designer } from '../data';
 import { FaArrowCircleLeft, FaArrowCircleRight } from 'react-icons/fa';
 import { RxExternalLink } from "react-icons/rx";
+import Masterclass from '../components/Masterclass';
 
 
 const Designers = () => {
@@ -59,13 +60,14 @@ const Designers = () => {
 
             <div className='flex items-center justify-center'>
                 <iframe src="https://www.youtube.com/embed/CjAFxpRsx3M"
-                    width="560" height="315"
+                    width="760" height="415"
                     title="" frameBorder="0"
                     allowFullScreen></iframe>
             </div>
 
-            <h1>Masterclass</h1>
-            <h1>Shopping</h1>
+        <h1 className='text-center text-3xl mt-36 mb-20 underline-text font-bold'>MASTERCLASS  </h1>
+            {/* <p>Experience the best Masterclasses</p> */}
+            <Masterclass/>
         </div>
     );
 };

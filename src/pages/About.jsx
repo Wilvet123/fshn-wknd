@@ -10,7 +10,7 @@ const About = () => {
   return (
     <div className='mt-20'>
         <div className='h-screen'>
-          <ChangingBg/>
+          <ChangingBg title='About' show='GTCO FSHN WKND'/>
         {/* <h1 className='font-poppins text-7xl font-bold text-center relative -bottom-5 '>About Us </h1> */}
         <div>
             {/* <img src={heroimg} alt="" className='w-96 h-64 object-cover rounded-xl' /> */}

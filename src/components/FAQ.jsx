@@ -6,7 +6,8 @@ const FAQ = () => {
   const faqs = [
     { question: "When and where is the event taking place?", 
         answer: "The event will be held on [dates] at [venue]. The venue is centrally located at [address], easily accessible by public transportation, and offers parking for attendees." },
-    { question: " How do I purchase tickets?", answer: "The GTCO Fashion weekend allows free entry. You can get the free tickets online through our official website at [link]. " },
+    { question: " How do I purchase tickets?",
+       answer: "The GTCO Fashion weekend allows free entry. You can get the free tickets online through our official website at [link]. " },
     { question: "What should I wear to Fashion Weekend?",
          answer: "There is no strict dress code, but we encourage guests to come dressed stylishly! Whether you're in casual chic, high fashion, or your unique personal style, it's a weekend to express yourself creatively. Comfortable shoes are recommended for walking around the event space." 
         },
